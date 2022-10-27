@@ -158,8 +158,12 @@
     border-color: var(--logo-main-color);
   }
 
+  @media screen and (min-width: 480px) and (max-width: 1200px) {
+    width: 450px;
+  }
+
   @media screen and (min-width: 1200px) {
-    min-width: 358px;
+    width: 358px;
   }
 }
 

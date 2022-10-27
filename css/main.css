@@ -901,9 +901,14 @@ body {
 .footer-form-input:focus, .footer-form-input:hover {
   border-color: var(--logo-main-color);
 }
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+  .footer-form-input {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer-form-input {
-    min-width: 358px;
+    width: 358px;
   }
 }
 
