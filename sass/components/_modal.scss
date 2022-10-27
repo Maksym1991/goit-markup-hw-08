@@ -152,9 +152,10 @@
 .modal-checkbox {
   position: relative;
   margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   font-size: 12px;
     line-height: 1.17;
   
@@ -166,8 +167,10 @@
 }
 
 .modal-checkbox-contract {
+  display: inline-block;
   color: var(--logo-main-color);
   text-decoration: underline;
+
 }
 
 .modal-checkbox-input {
@@ -186,6 +189,8 @@
 }
 
 .modal-checkbox-icon {
+  display: inline-block;
+  vertical-align: text-top;
   width: 16px;
   height: 15px;
   margin-right: 8px;
