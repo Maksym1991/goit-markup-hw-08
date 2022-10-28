@@ -90,16 +90,12 @@
   color: var(--main-text-color);
 }
 
-.projects__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
 .projects__wrapper {
+  flex-grow: 1;
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
+  
 }
 
 .projects__text {
