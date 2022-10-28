@@ -1,12 +1,9 @@
-/* Портфоліо */
-
-.portfolio-btn-list {
+.portfolio__list {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 40px;
-  padding-right: 12px;
 
   @media screen and (min-width: 480px) and (max-width: 767px) {
     padding-right: 124px;
@@ -22,7 +19,7 @@
   }
 }
 
-.portfolio-btn {
+.portfolio__btn {
   min-width: 73px;
   padding: 6px 22px;
   font-family: inherit;
@@ -48,13 +45,13 @@
   }
 }
 
-.portfolio-list {
+.projects__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.portfolio-list-item {
+.projects__item {
   @media screen and (min-width: 768px) {
     width: calc((100% - 30px) / 2);
   }
@@ -64,7 +61,7 @@
   }
 }
 
-.portfolio-link {
+.projects__link {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -77,42 +74,35 @@
   }
 }
 
-.portfolio-title {
+.projects__title {
+  margin-bottom: 4px;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--secondary-text-color);
-  margin-bottom: 4px;
 }
 
-.portfolio-desc {
+.projects__desc {
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
-// .portfolio-btn-list {
-//   display: flex;
-//   justify-content: center;
-// }
-
-// .btn-list-item:not(:last-child) {
-//   margin-right: 8px;
-// }
-
-.portfolio-list {
+.projects__list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
   gap: 30px;
 }
 
-.portfolio-wrapper {
+.projects__wrapper {
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
 }
 
-.portfolio-text {
+.projects__text {
   position: absolute;
   display: flex;
   align-items: center;
@@ -131,11 +121,11 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link:hover .portfolio-text {
+.projects__link:hover .projects__text {
   transform: translateY(0);
 }
 
-.portfolio-overlay {
+.projects__overlay {
   position: relative;
   overflow: hidden;
 }

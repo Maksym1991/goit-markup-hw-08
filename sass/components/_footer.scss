@@ -8,7 +8,7 @@
   }
 }
 
-.footer-wraper {
+.footer__wraper {
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -31,7 +31,7 @@
   }
 }
 
-.footer-info {
+.footer__info {
   min-width: 232px;
 
   @media screen and (min-width: 1200px) {
@@ -40,7 +40,7 @@
   }
 }
 
-.footer-logo {
+.footer__logo {
   font-family: var(--font-family-logo);
   font-weight: 700;
   font-size: 24px;
@@ -55,7 +55,7 @@
   }
 }
 
-.footer-list {
+.footer__list {
   font-style: normal;
   line-height: 1.71;
   display: flex;
@@ -67,11 +67,11 @@
   }
 }
 
-.footer-adress {
+.footer__adress {
   color: var(--body-main-color);
 }
 
-.footer-contact {
+.footer__contact {
   color: #ffffff99;
 }
 
@@ -83,7 +83,8 @@
   }
 }
 
-.footer-paragraf {
+.footer-social__paragraf,
+.footer-mailing__paragraf {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -93,20 +94,19 @@
   margin-bottom: 20px;
 }
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
-  // justify-content: center;
   gap: 10px;
 }
 
-.footer-social-item {
+.footer-social__item {
   width: 44px;
   height: 44px;
   border-radius: 50px;
   overflow: hidden;
 }
 
-.footer-social-link {
+.footer-social__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -121,7 +121,7 @@
   }
 }
 
-.footer-social-icon {
+.footer-social__icon {
   width: 20px;
   height: 20px;
   fill: var(--body-main-color);
@@ -131,7 +131,7 @@
   display: block;
 }
 
-.footer-form {
+.footer-mailing__form {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -142,7 +142,7 @@
   }
 }
 
-.footer-form-input {
+.footer-mailing__input {
   width: 100%;
   min-height: 50px;
   padding: 15px 16px;
@@ -167,14 +167,14 @@
   }
 }
 
-.footer-form-input::placeholder {
+.footer-mailing__input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-form-btn {
+.footer-mailing__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +198,7 @@
   }
 }
 
-.footer-form-icon {
+.footer-mailing__icon {
   width: 24px;
   height: 24px;
   fill: var(--body-main-color);
